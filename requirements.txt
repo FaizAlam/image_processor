@@ -1,3 +1,6 @@
+pip>=23.0
+setuptools>=67.0
+wheel>=0.40
 amqp==5.2.0
 asgiref==3.8.1
 async-timeout==4.0.3
