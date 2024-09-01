@@ -1,25 +1,26 @@
 Instructions to run the code:
 
-1) clone the repo
-    `git clone <url>`
+1) clone the repo and change working directory to image_processor folder
+   
+    `git clone <url> && cd image_processor'
 
-2) create virtual python environment at spy-assgn folder level
+3) create virtual python environment
     `python3 -m venv myvenv`
 
-3) activate the environment
+4) activate the environment
     `./myvenv/scripts/activate   #windows`
     `source myvenv/bin/activate  #macOS/linux`
 
-4) Install dependencies
+5) Install dependencies
     pip install -r requirements.txt
 
-5) change directory to image_processor
+6) change directory to image_processor
     cd image_processor
 
-6) run the django server
+7) run the django server
     python manage.py runserver
 
-7) run the celery 
+8) run the celery 
     celery -A image_processor worker -l info
 
 TESTING
