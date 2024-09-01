@@ -1,8 +1,7 @@
 Instructions to run the code:
 
 1) clone the repo and change working directory to image_processor folder
-   
-    `git clone <url> && cd image_processor'
+   `git clone <url> && cd image_processor'
 
 3) create virtual python environment
     `python3 -m venv myvenv`
@@ -12,16 +11,13 @@ Instructions to run the code:
     `source myvenv/bin/activate  #macOS/linux`
 
 5) Install dependencies
-    pip install -r requirements.txt
+    `pip install -r requirements.txt`
 
-6) change directory to image_processor
-    cd image_processor
+6) run the django server
+    `python3 manage.py runserver`
 
-7) run the django server
-    python manage.py runserver
-
-8) run the celery 
-    celery -A image_processor worker -l info
+7) run the celery 
+    `celery -A image_processor worker -l info`
 
 TESTING
 
