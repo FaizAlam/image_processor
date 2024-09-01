@@ -25,7 +25,7 @@ Instructions to run the code:
 TESTING
 
 try api collection aftre starting the server
-Postman API collection: 
+Postman API collection: https://gold-comet-628112.postman.co/workspace/dfghdjfkgm~a318d5c9-1560-4a4a-98ac-67ee0fc4b586/collection/13311764-67875dea-a58a-4c33-a871-0680432046b8?action=share&creator=13311764
 
 
 API DOCUMENTATION
