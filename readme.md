@@ -1,14 +1,14 @@
 Instructions to run the code:
 
-1) change directory to spy-assgn
-    cd spy-assgn
+1) clone the repo
+    `git clone <url>`
 
 2) create virtual python environment at spy-assgn folder level
-    python3 -m venv myvenv
+    `python3 -m venv myvenv`
 
 3) activate the environment
-    ./myvenv/scripts/activate   #windows
-    source myvenv/bin/activate  #macOS/linux
+    `./myvenv/scripts/activate   #windows`
+    `source myvenv/bin/activate  #macOS/linux`
 
 4) Install dependencies
     pip install -r requirements.txt
