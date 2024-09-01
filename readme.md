@@ -25,7 +25,12 @@ python3 -m venv myvenv
 pip install -r requirements.txt
 ```
 
-### 5. Run the Django Server
+### 5. Run the migration command
+```bash
+python3 manage.py migrate
+```
+
+### 6. Run the Django Server
 ```bash
 python3 manage.py runserver
 ```
